@@ -1,0 +1,130 @@
+*{
+	text-decoration: none;
+}
+
+body{
+	background-color:ghostwhite;
+}
+.navigasi{
+	margin: 0;
+	padding: none;
+	padding-top: 10px;
+	top: 0;
+	position: fixed;
+	width: 170%;
+	background-color: yellow;
+	color: black;
+	font-size: 20px;
+	overflow: hidden;
+	list-style-type: none;
+	border-bottom: 1px solid black;
+}
+.navigasi li{
+	float: left;
+	padding-right: 40px;
+	font-family: monospace;
+	color: white;
+}
+.gambar{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	
+}
+.job h3{
+	padding: 0px;
+	margin: 0px;
+}
+.nama{
+	padding: 0px;
+	margin: 0px;
+	background-color: yellow;
+}
+.pra1{
+	font-size: 16px;
+	font-family: monospace;
+}
+.gambar1{
+	width: 180px;
+	height: 180px;
+	border-radius: 25%;
+	margin: 20px;
+}
+.list li{
+	overflow: hidden;
+	list-style-type: none;
+	float: left;
+}
+
+.gambar1:hover{
+	width: 220px;
+	height: 220px;
+	border: 10px solid black;
+}
+#tentangsy{
+	text-align: center;
+	margin: 0px;
+}
+.hobi{
+	margin: 0%;
+	text-align: center;
+}
+.lihob{
+	font-family: monospace;
+	text-align: center;
+	overflow: hidden;
+	list-style-type: none;
+}
+#galeri{
+	text-align: center;
+	margin: 0px;
+}
+#cpr{
+	text-align: center;
+}
+.sosmed{
+	width: 3%;
+	height: 3%;
+	margin: 0px;
+	padding-top: 10px;
+}
+.sosmed:hover{
+	width: 4%;	
+}
+.navigasi li:hover{
+	background-color: white;
+}
+.navigasi a{
+	color: black;
+}
+.atas tr:hover{
+	color: transparent;
+}
+form table{
+	text-align: left;
+}
+table{
+	font-family: monospace;
+	text-align: center;
+}
+.list li{
+	font-family: monospace;
+}
+.label{
+	margin: 0px;
+}
+form input{
+	margin-bottom: 20px;
+}
+form select{
+	margin-bottom: 20px;
+}
+form textarea{
+	margin-bottom: 20px;
+}
+form button{
+	margin-bottom: 20px;
+}
+form{
+	text-align: center;
+}
