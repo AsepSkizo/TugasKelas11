@@ -3,4 +3,6 @@ Folder TugasPWPB Berisi ulangan JS
 <br>
 Folder BootstrapSZ berisi web dengan menggunakan bootstrap
 <br>
-Folder
+Folder perkenala XIRB Final berisi tentang perkenalan HTML dan CSS
+<br>
+Folder belajar_js berisi tentang materi JS
