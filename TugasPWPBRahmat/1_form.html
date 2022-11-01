@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="" id="nama" placeholder="Masukkan Nama">
+    <label for="">Kelas</label>
+    <select name="" id="kelas">
+        <option value="ra">XI RA</option>
+        <option value="rb">XI RB</option>
+        <option value="rc">XI RC</option>
+    </select>
+    <input type="number" name="" id="absen" placeholder="Masukkan No.Absen">
+    <input type="text" name="" id="alamat" placeholder="Masukkan Alamat">
+    <button type="button" onclick="kirim()">Kirim</button>
+
+    <h3>Nama : <h3 id="tampilnam"></h3>
+    </h3>
+    <h3>Kelas : <h3 id="tampilkel"></h3>
+    </h3>
+    <h3>Absen : <h3 id="tampilab"></h3>
+    </h3>
+    <h3>Alamat : <h3 id="tampilal"></h3>
+    </h3>
+    <script>
+        function kirim() {
+            var nama = document.getElementById('nama').value;
+            var kelas = document.getElementById('kelas').value;
+            var absen = document.getElementById('absen').value;
+            var alamat = document.getElementById('alamat').value;
+            var tampiNama = document.getElementById('tampilnam');
+            var tampilKelas = document.getElementById('tampilkel');
+            var tampilAbsen = document.getElementById('tampilab');
+            var tampilAlamat = document.getElementById('tampilal');
+            tampiNama.innerHTML = nama;
+            tampilKelas.innerHTML = kelas;
+            tampilAbsen.innerHTML = absen;
+            tampilAlamat.innerHTML = alamat;
+        }
+    </script>
+</body>
+
+</html>

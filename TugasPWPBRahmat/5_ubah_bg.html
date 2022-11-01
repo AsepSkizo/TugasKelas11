@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3 style="text-align: center;">Ubah Background</h3>
+    <select name="" id="ubah" onchange="ubahBG()">
+        <option value="putih">Putih</option>
+        <option value="hitam">Hitam</option>
+        <option value="merah">Merah</option>
+    </select>
+
+    <script>
+        function ubahBG() {
+            var pilih = document.getElementById('ubah').value;
+            var body = document.body;
+            console.log(pilih)
+            if (pilih == 'putih') {
+                body.classList = 'putih';
+            } else if (pilih == 'hitam') {
+                body.classList = 'hitam';
+            }
+            else if (pilih == 'merah') {
+                body.classList = 'merah'
+            }
+        }
+    </script>
+</body>
+
+</html>

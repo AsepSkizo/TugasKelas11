@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" name="" id="nilaix" placeholder="Masukkan nilai x" value="">
+    <input type="number" name="" id="nilaiy" placeholder="Masukkan nilai y" value="">
+    <button onclick="perbandingan()">Membandingkan!</button>
+    <script>
+        
+        function perbandingan() {
+            var x = document.getElementById('nilaix').value;
+            var y = document.getElementById('nilaiy').value;
+            console.log(x);
+            console.log(y);
+            if (x > y) {
+                alert('nilai ' + x + ' lebih besar dari ' + y);
+            } else if (y > x) {
+                alert(y + ' lebih besar dari ' + x);
+            } else if (x == '' || y == '') {
+                alert('Masukkan nilai!');
+            } else if (y == x) {
+                alert('x sama dengan y');
+            }
+        }
+    </script>
+</body>
+
+</html>

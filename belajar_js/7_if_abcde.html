@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Mengecek Nilai</h3>
+    <input type="number" name="" id="nilai">
+    <button onclick="cek()">Mengecek Nilai</button>
+
+    <script>
+        function cek() {
+            var n = document.getElementById('nilai').value;
+            if (n <= 60 && n >= 0) {
+                alert("E");
+            }
+            else if (n >= 70 && n < 80) {
+                alert("C");
+            } else if (n >= 61 && n < 70) {
+                alert("D");
+            } else if(n >= 81 && n <= 90){
+                alert("B");
+            } else if(n >= 91 && n <= 100){
+                alert("A");
+            } 
+            else{
+                alert('Nilai Tidak Valid!')
+            }
+        }
+    </script>
+</body>
+
+</html>
